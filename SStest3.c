@@ -15,7 +15,7 @@ int main() {
         scanf("%d", &input);
 
         // Check if the input is -1
-        if (input != -1) {
+        if (input == -1) {
             printf("Stopping input.\n");
             break; // Exit the loop
         }
